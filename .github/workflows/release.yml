@@ -13,11 +13,6 @@ on:
         type: choice
         options:
           - release
-      push_to_marketplace:
-        description: "Push to marketplace"
-        required: false
-        default: false
-        type: boolean
 
 jobs:
   determine_workflow:
